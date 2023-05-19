@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/icon_logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project:S</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+  }
+  body {
+    color: rgb(214, 214, 214);
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    list-style: none;
+    margin: 20px 0;
+    border-bottom: 2px solid white;
+    width: 8rem;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: rgb(20, 20, 20);
+    width: 100%;
+  }
+  
+  .flex-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-header span {
+    color: rgb(227, 35, 35);
+  }
+  
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-toggle {
+    border: transparent;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .nav-open {
+    height: 100vh;
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .nav-toggle {
+      display: none;
+    }
+  
+    .nav-header {
+      display: block;
+    }
+  
+    .flex-nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+    }
+  
+    .nav-links {
+      height: auto;
+    }
+  
+    ul {
+      text-align: center;
+    }
+  
+    .nav-link {
+      display: inline-block;
+      border-bottom: none;
+    }
+  
+    .nav-links span {
+      background: rgb(70, 70, 70);
+      padding: 8px 15px;
+      border-radius: 4px;
+    }
+  }
+</style>
+<body>
+    <div class="navbar">
+        <div class="container flex-nav">
+            <div class="nav-header">
+                <h2>Project: <span id="animatedText">Sekai</span></h2>
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <ul>
+                    <li class="nav-link"><a href="index.html">Home</a></li>
+                    <li class="nav-link"><a href="#">Manga</a></li>
+                    <li class="nav-link"><a href="#"><span>About</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<h1>Concept Arts</h1>
+<div class="text-container">
+    <p>All of the characters i made here is just a concept and not the final design. If you have suggestions on how i can
+       improve the character feel free to measssage me on <a href="https://instagram.com/ha_yato0?igshid=ZGUzMzM3NWJiOQ==">Instagram.</a> 
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
